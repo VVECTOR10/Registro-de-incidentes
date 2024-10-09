@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de incidentes no local de trabalho</title>
+</head>
+<body>
+    <h1>Registro de incidentes no local de trabalho</h1>
+    <form action="/submit" method="POST">
+        <label for="name1">Digite seu nome:
+            <input type="text" id="name1" name="seu nome" placeholder="Digite o seu nome">
+        </label>
+        <br>
+        <label for="name2">Digite o nome dos possíveis culpados:
+            <input type="text" id="name2" name="nome dos possíveis culpados" placeholder="Digite o nome dos possíveis culpados">
+        </label>
+        <br>
+        <label for="cargo">Digite o Cargo do(s) culpado(s):
+            <input type="text" id="cargo" name="Cargo" placeholder="Digite o Cargo">
+        </label>
+        <br>
+        <label for="name3">Digite o nome da(s) vítima(s):
+            <input type="text" id="name3" name="nome da(s) vítima(s)" placeholder="Digite o nome das vítimas">
+        </label>
+        <br>
+        <label for="cargo">Digite o Cargo da(s) vítima(s):
+            <input type="text" id="cargo2" name="Cargo2" placeholder="Digite o Cargo">
+        </label>
+        <br>
+        <label for="local">Digite o local do incidente:
+            <input type="text" id="local" name="local" placeholder="Digite o local">
+        </label>
+        <br>
+        <label for="data">Digite a data do ocorrido:
+            <input type="date" id="data" name="data">
+        </label>
+        <br>
+        <label for="time">Digite o horário do ocorrido:
+            <input type="time" id="time" name="data">
+        </label>
+        <br>
+        <label for="detalhes">Digite mais detalhes do incidente:
+            <textarea name="detalhes" id="detalhes"></textarea>
+        </label>
+    </form>    
+</body>
+</html>
